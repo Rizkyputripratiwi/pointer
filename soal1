@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+//Rizky Putri Pratiwi
+//G1A021044
+//Pointer Nomor 1
+
+int main(){
+
+  		int a, b, c;
+		int *p1, *p2, *p3;
+
+
+  	a = 10 ;
+  	b=15;
+  	p1 = &b;
+	p2 =p1;
+	c = 27;
+	p1 = &c;
+	a = *p1;
+	p3 = &b;
+	*p2 = 8;
+	cout<<"a = "<<10<<endl;
+	cout<<"b =  "<<b<<endl;
+  	cout << "p1 =" << &b<<endl;
+  	cout << "p2 =" << p1 << endl;
+  	cout<<"c = "<<c<<endl;
+  	cout << "p1 = " << &c << endl;
+  	cout << "a = " << *p1 << endl;
+  	cout << "p3 =" << &b <<endl;
+  	cout << "*p2 = 8" << endl;
+
+	return 0;
+}
